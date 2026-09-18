@@ -1,0 +1,11 @@
+.vs/
+Source/bin/
+Source/obj/
+*.user
+*.suo
+*.pdb
+Thumbs.db
+Desktop.ini
+Directory.Build.props
+Directory.Build.targets
+*.slnx

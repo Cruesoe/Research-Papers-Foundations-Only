@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ResearchPapersFoundationsOnly</RootNamespace>
+    <AssemblyName>ResearchPapersFoundationsOnly</AssemblyName>
+    <UnityModules>CoreModule;IMGUIModule;InputLegacyModule;TextRenderingModule</UnityModules>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+</Project>

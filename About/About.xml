@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Research Papers - Foundations Only</name>
+    <author>Cruesoe</author>
+    <packageId>cruesoe.researchpapersfoundationsonly</packageId>
+    <modVersion IgnoreIfNoMatchingField="True">260918</modVersion>
+    <description>Limits Research Papers to only produce a book for Foundation research from Node Research, instead of every research project. Keeps large progression playthroughs from burying you in hundreds of books.</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>ChaoticEnrico.ResearchPapers</packageId>
+            <displayName>Research Papers</displayName>
+            <steamWorkshopUrl>steamcommunity.com/sharedfiles/filedetails/?id=3492739424</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>ferny.noderesearch</packageId>
+            <displayName>Node Research</displayName>
+            <steamWorkshopUrl>steamcommunity.com/sharedfiles/filedetails/?id=3729878405</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>ChaoticEnrico.ResearchPapers</li>
+        <li>ferny.noderesearch</li>
+    </loadAfter>
+</ModMetaData>
