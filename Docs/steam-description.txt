@@ -1,1 +1,13 @@
-Limits Research Papers to only produce a book for Foundation research from Node Research, instead of every research project. Keeps large progression playthroughs from burying you in hundreds of books.
+[b]Research Papers only produces books for Node Research's Foundation projects, instead of every research project.[/b]
+
+Keeps large progression playthroughs from burying you in hundreds of books.
+
+[h2]Features[/h2]
+[list]
+[*]Research Papers writes a book only for Foundation research from Node Research.
+[*]Every other project is excluded from producing a book.
+[/list]
+
+[h2]Compatibility[/h2]
+Requires Research Papers and Node Research.
+Safe to add to an existing save.
