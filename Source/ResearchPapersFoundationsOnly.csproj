@@ -2,7 +2,20 @@
   <PropertyGroup>
     <RootNamespace>ResearchPapersFoundationsOnly</RootNamespace>
     <AssemblyName>ResearchPapersFoundationsOnly</AssemblyName>
-    <UnityModules>CoreModule;IMGUIModule;InputLegacyModule;TextRenderingModule</UnityModules>
-    <TargetFramework>net48</TargetFramework>
+    <UnityModules>CoreModule</UnityModules>
+    <!-- Node Research targets net48; the 1.6 build targets net472 -->
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <NodeResearchDll Condition="'$(NodeResearchDll)' == ''">C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3729878405\1.6\Assemblies\BetterResearchMenu.dll</NodeResearchDll>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BetterResearchMenu">
+      <HintPath>$(NodeResearchDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="VerifyNodeResearch" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(NodeResearchDll)')" Text="BetterResearchMenu.dll not found at '$(NodeResearchDll)'. Subscribe to Node Research or set NodeResearchDll." />
+  </Target>
 </Project>

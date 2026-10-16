@@ -7,6 +7,7 @@
     <description>Limits Research Papers to only produce a book for Foundation research from Node Research, instead of every research project. Keeps large progression playthroughs from burying you in hundreds of books.</description>
     <supportedVersions>
         <li>1.6</li>
+        <li>1.7</li>
     </supportedVersions>
     <modDependencies>
         <li>
