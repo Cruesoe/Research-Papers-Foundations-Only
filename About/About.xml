@@ -3,7 +3,7 @@
     <name>Research Papers - Foundations Only</name>
     <author>Cruesoe</author>
     <packageId>cruesoe.researchpapersfoundationsonly</packageId>
-    <modVersion IgnoreIfNoMatchingField="True">260918</modVersion>
+    <modVersion IgnoreIfNoMatchingField="True">261016</modVersion>
     <description>Limits Research Papers to only produce a book for Foundation research from Node Research, instead of every research project. Keeps large progression playthroughs from burying you in hundreds of books.</description>
     <supportedVersions>
         <li>1.6</li>
